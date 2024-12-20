@@ -9,9 +9,9 @@ public class Cottege {
   private ArrayList<Character> KindsOfBeds;
   private ArrayList<Guest> guests;
 
-    public Cottege(int code, String name, int bedAmount,
+    public Cottege( String name, int bedAmount,
                    ArrayList<Character> kindsOfBeds, ArrayList<Guest> guests) {
-        this.code = code;
+
         this.name = name;
         this.bedAmount = bedAmount;
         KindsOfBeds = kindsOfBeds;

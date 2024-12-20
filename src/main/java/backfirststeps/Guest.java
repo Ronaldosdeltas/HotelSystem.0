@@ -75,4 +75,17 @@ public class Guest {
     public void setNumberOfDaysInCottege(String numberOfDaysInCottege) {
         NumberOfDaysInCottege = numberOfDaysInCottege;
     }
+
+    @Override
+    public String toString() {
+        return "Guest{" +
+                "name='" + name + '\'' +
+                ", cpf=" + cpf +
+                ", age=" + age +
+                ", cottege=" + cottege +
+                ", ArrivedDay='" + ArrivedDay + '\'' +
+                ", LeftDay='" + LeftDay + '\'' +
+                ", NumberOfDaysInCottege='" + NumberOfDaysInCottege + '\'' +
+                '}';
+    }
 }
